@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 class test {
@@ -80,11 +79,12 @@ class test {
         System.out.println("\n==================================");
         System.out.println("          FINAL RECEIPT           ");
         System.out.println("==================================");
-        System.out.println("Total quantity of items purchased: " + totalitem);
+        System.out.println("Total items purchased: " + totalitem);
         System.out.printf("Total amount before Discount     : P%.2f\n", discount);
         System.out.printf("Total Discount                   : P%.2f\n", totalDeduction);
         System.out.printf("Final amount to pay              : P%.2f\n", finalAmountToPay);
         System.out.println("==================================");
+        System.err.println("Thank you for ordering!");
 
         input.close();
     }
